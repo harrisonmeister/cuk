@@ -10,7 +10,11 @@ namespace caburnuk.Controllers
     {
         public ActionResult Index()
         {
+            return View();
+        }
 
+        public ActionResult Error()
+        {
             return View();
         }
 

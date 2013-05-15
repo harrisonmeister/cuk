@@ -16,13 +16,18 @@
 <body>
 
     <div class="container-narrow">
+        <div id="header">
+            @RenderSection("header", required: true)
+            <hr>
+        </div>
         @RenderBody()
-        
-        <div class="footer">
-        <p>&copy; Caburn Accountants Ltd @DateTime.Now.Year</p>
-      </div>
+
+        <div id="footer">
+            <hr>
+            <p>&copy; Caburn Accountants Ltd @DateTime.Now.Year</p>
+        </div>
     </div>
-    
+
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
 
