@@ -1,0 +1,26 @@
+{
+  "name": "caburnuk",
+  "version": "1.0.0",
+  "description": "caburnuk website",
+  "main": "ExpressServer.js",
+  "dependencies": {
+    "express": "~3.4.8",
+    "ejs": "~1.0.0",
+    "mailgun": "~0.4.2",
+	"recaptcha": "~1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/harrisonmeister/caburnuk.git"
+  },
+  "author": "harrisonmeister",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harrisonmeister/caburnuk/issues"
+  },
+  "homepage": "https://github.com/harrisonmeister/caburnuk"
+}
