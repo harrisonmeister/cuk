@@ -5,9 +5,7 @@
   "main": "ExpressServer.js",
   "dependencies": {
     "express": "~3.4.8",
-    "ejs": "~1.0.0",
-    "mailgun": "~0.4.2",
-	"recaptcha": "~1.2.0"
+    "ejs": "^2.5.8"
   },
   "devDependencies": {},
   "scripts": {
