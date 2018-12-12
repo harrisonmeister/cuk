@@ -1,11 +1,11 @@
 var express = require('express'),
     app = express();
+	
+var bodyParser = require('body-parser');
 
 app.engine('html', require('ejs').renderFile);
 app.use(express.static(__dirname + '/'));
-app.configure(function () {
-    app.use(express.bodyParser());
-});
+app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(function (req, res, next) {
     res.status(404);
